@@ -6,6 +6,10 @@
 
 This project provides a Python-based framework for simulating macroeconomic shocks (inflation spikes and currency depreciations) during financial crises. It analyzes historical crisis data to quantify risk exposures and assess portfolio vulnerabilities.
 
+### Data Source
+
+The analysis uses the "global_crisis_data" dataset, which contains historical information on various types of financial crises, sovereign defaults, inflation rates, exchange rates, and other economic indicators across multiple countries and time periods.
+
 ### Key Features:
 
 - Realistic shock modeling (hybrid additive/multiplicative impacts)
@@ -34,4 +38,5 @@ Data Limitations:
 - Exchange rate data covers only 47% of historical crises
 
 ### Source
+
 [Global Crisis Dataset from Kaggle](https://www.kaggle.com/datasets/ayush12nagar/global-crisis)
